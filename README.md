@@ -57,20 +57,24 @@ Source your ROS2 workspace setup file:
 
    $ros2 launch turtlebot3_gazebo enpm690_model.launch.py
 
-## Run Teleop Node
+## Part 1: Run Teleop Node
 
 2. In another terminal window, run the teleop node:
 
 
    $ros2 run robomove_pkg teleop_keyboard
 
+   Output Video: https://drive.google.com/file/d/1auAgp_om0UlxpD5pA-yRnVTRNTa90Ht0/view?usp=sharing
 
-## Run Obstacle Avoidance Node
+
+## Part 2: Run Obstacle Avoidance Node
 
 2. In another terminal window, run the obstacle avoidance node:
 
 
    $ros2 run robomove_pkg lidar_obstacle_avoidance
+
+   Output Video: https://drive.google.com/file/d/1WAB5d2H5oDbhWNq63-u8PoGx9SCoflkp/view?usp=drive_link
 
 
 
